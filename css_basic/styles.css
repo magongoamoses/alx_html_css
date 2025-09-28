@@ -19,6 +19,27 @@ header {
 
 }
 
+header ul {
+    display: flex;        
+    align-items: center;     
+    list-style: none;       
+    margin: 0;
+    padding: 0;
+    position: relative;               
+}
+
+header li.logo img {
+    height: 45px;  
+    width: auto;
+    display: block;
+}
+
+header li a {
+    text-decoration: none;
+    color: #f0f0f0;  
+    font-weight: bold;
+}
+
 footer {
     background:  #264653;
     color:  #f0f0f0;
@@ -40,4 +61,35 @@ aside {
     color: #ffffff;
     padding: 20px;
     overflow-y: auto;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;   
+    margin-top: 15px;
+}
+
+article th, article td {
+    border: 2px solid #ffffff; 
+    padding: 10px;
+    text-align: left;
+}
+
+article th {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+article tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+article p a[href="tweets.html"] {
+    display: inline-block;
+    background-color: #ffd166;  
+    color: #264653;              
+    padding: 8px 15px;         
+    border-radius: 5px;         
+    text-decoration: none;       
+    font-weight: bold;
+    transition: all 0.3s ease;  
 }
