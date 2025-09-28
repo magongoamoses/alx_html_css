@@ -39,5 +39,5 @@ Additional Styling (Optional)
 - Add a logo using a Unicode character with the logo class.
 
 # Restrictions:
-Do not change the Flexbox layout strategy outside <article>.
-Avoid repositioning <header>, <main>, <aside>, or <footer>.
+Do not change the Flexbox layout strategy outside article tag.
+Avoid repositioning of the following tags: header, main, aside, or footer.
